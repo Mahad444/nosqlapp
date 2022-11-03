@@ -4,7 +4,7 @@ const Schema = mongoose.Schema
 const customerSchema = new Schema({
     customerName:{
         type:String,
-        required:[true , "Name is Required"]
+        required:[false, "Name is Required"] 
     },
     customerNumber:{
         type:String,
